@@ -80,14 +80,14 @@ a {
   margin: 1rem auto;
   text-align: center;
 }
-.Main .Main_Computer, .Main .Main_Devices {
-  margin: 8rem 0;
-}
 .Main .Main_Computer img, .Main .Main_Devices img {
   width: 100%;
 }
 .Main .Main_Devices {
   margin-bottom: 5rem;
+}
+.Main .Main_Computer {
+  margin-bottom: 10rem;
 }
 .Main .three-art {
   margin-bottom: 1rem;

@@ -6,13 +6,15 @@
 
    } 
    #{&}_Computer,#{&}_Devices{
-    margin: 8rem 0;
     img{
         width: 100%;
     }
    }
    #{&}_Devices{
     margin-bottom: 5rem;
+   }
+   #{&}_Computer{
+    margin-bottom: 10rem;
    }
    .three-art{
     margin-bottom:1rem ;
