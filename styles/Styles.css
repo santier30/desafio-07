@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #7b2222;
+}
+
+.Landing {
+  text-align: center;
+  width: 90%;
+  margin: 1rem auto;
+  margin-bottom: 5rem;
+}
+.Landing h1 {
+  text-align: center;
+}
+.Landing p {
+  text-align: center;
+}
+.Landing div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Landing div button {
+  width: 90%;
+  max-width: 18rem;
+  padding: 1rem;
+}
+.Landing div .ios {
+  border-radius: 2rem;
+  background-color: hsl(171, 66%, 44%);
+}
+.Landing div .mac {
+  border-radius: 2rem;
+  background-color: hsl(233, 100%, 69%);
+}
+
+@media screen and (min-width: 768px) {
+  .Landing {
+    width: 52%;
+  }
+  .Landing div {
+    flex-direction: row;
+  }
+}
+.company {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.company img {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .company {
+    background-image: url("../img/bg-header-desktop.png");
+  }
+}
+.Main .Main_article, .Main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.Main .Main_Computer, .Main .Main_Devices {
+  margin-bottom: 8rem;
+}
+.Main .Main_Computer img, .Main .Main_Devices img {
+  width: 100%;
+}
+.Main .Main_Devices {
+  margin-bottom: 5rem;
+}
+.Main .three-art {
+  margin-bottom: 1rem;
+}
+.Main .three-art img {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .Main .Main_article {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .Main .Main_Computer {
+    width: 100%;
+    flex-direction: row;
+    align-items: start;
+  }
+  .Main .Main_Computer img {
+    width: 50%;
+  }
+  .Main .Main_Computer div {
+    width: 30%;
+  }
+  .Main .Main_Computer div h2 {
+    width: 100%;
+    text-align: left;
+    margin: 0 0 1rem 0;
+  }
+  .Main .Main_Computer div p {
+    text-align: left;
+    margin-bottom: 15%;
+    align-self: flex-start;
+  }
+  .Main .three-art {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+  .Main .three-art article {
+    width: 30%;
+  }
+  .Main .three-art img {
+    height: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .three-art article h2 {
+    font-size: 2rem;
+  }
+  .three-art article p {
+    font-size: 1.1rem;
+  }
+}
+.Suports {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 10rem;
+  margin-top: 7rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .Suports {
+    flex-direction: row;
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto;
+    margin-bottom: 15rem;
+    margin-top: 10rem;
+    gap: 2rem;
+  }
+  .Suports img {
+    width: 20%;
+  }
+}
+.Download {
+  text-align: center;
+  width: 90%;
+  margin: 1rem auto;
+  margin-bottom: 5rem;
+}
+.Download h1 {
+  text-align: center;
+}
+.Download p {
+  text-align: center;
+}
+.Download div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Download div button {
+  width: 90%;
+  max-width: 18rem;
+  padding: 1rem;
+}
+.Download div .ios {
+  border-radius: 2rem;
+  background-color: hsl(171, 66%, 44%);
+}
+.Download div .mac {
+  border-radius: 2rem;
+  background-color: hsl(233, 100%, 69%);
+}
+
+@media screen and (min-width: 768px) {
+  .Download {
+    width: 54%;
+  }
+  .Download div {
+    flex-direction: row;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(234, 232, 232, 0.282);
+}
+footer .Logo {
+  width: 3rem;
+  margin: 1rem;
+}
+footer ul li {
+  padding: 1rem;
+}
+footer ul li a {
+  color: hsl(210, 10%, 33%);
+}
+footer ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+footer div {
+  padding: 2rem;
+}
+footer div a {
+  font-size: 2rem;
+  margin: 1rem 1rem;
+  color: hsl(210, 10%, 33%);
+}
+footer div a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.Logo-div {
+  padding: 0;
+}
+
+@media screen and (min-width: 1025px) {
+  footer {
+    flex-direction: row;
+  }
+  footer .Logo-div {
+    flex: 2;
+  }
+  footer ul {
+    flex: 1;
+  }
+  footer ul li {
+    padding: 0rem;
+  }
+  footer ul li a {
+    color: hsl(210, 10%, 33%);
+  }
+  footer ul li a:hover {
+    color: hsl(171, 66%, 44%);
+  }
+  footer div {
+    flex: 3;
+  }
+  footer div a {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    color: hsl(210, 10%, 33%);
+  }
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+  color: #FFF;
+}
+
+h2, h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+a, p, button {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+button {
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 3rem;
+  color: hsl(201, 11%, 66%);
+}
+
+h2, h1 {
+  margin: 0 1rem 1rem 1rem;
+  color: hsl(210, 10%, 33%);
+}
+
+@media screen and (min-width: 1440px) {
+  h2, h1 {
+    font-size: 2.8rem;
+  }
+  a, p, button {
+    font-size: 1.3rem;
+  }
+}/*# sourceMappingURL=Styles.css.map */

@@ -1,0 +1,50 @@
+@import "./config","./Landing","./Header","./Main","./Suporters","./ios","./footer";
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  button{
+    cursor:pointer ;
+    color: #FFF;
+  }
+
+
+  h2,h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  a,p,button{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:1.1rem ;
+    font-weight: 400;
+  }
+  button{
+    font-weight: 600;
+  }
+
+
+  p{
+    margin-bottom: 3rem;
+    color: $Grayish-Blue;
+  }
+  h2,h1{  
+    margin: 0 1rem 1rem 1rem;
+    color: $Dark-Grayish-Blue;
+  }
+ 
+@include media-xl{
+  h2,h1{
+    font-size: 2.8rem;
+  }
+  a,p,button{
+    font-size:1.3rem ;
+  }
+}

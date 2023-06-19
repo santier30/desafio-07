@@ -1,0 +1,83 @@
+.Main{
+   #{&}_article , div{
+    @include Vflex-center;
+    @include align-center(90%);
+    text-align: center;
+
+   } 
+   #{&}_Computer,#{&}_Devices{
+    margin-bottom: 8rem;
+    img{
+        width: 100%;
+    }
+   }
+   #{&}_Devices{
+    margin-bottom: 5rem;
+   }
+   .three-art{
+    margin-bottom:1rem ;
+    img{
+       margin-bottom: 2rem;
+    }
+}
+}
+@include media-lg{
+    .Main{
+        #{&}_article{
+            width: 55%;
+        }}
+}
+@include media-lg{
+    .Main{
+
+        #{&}_Computer{
+            width: 100%;
+            flex-direction: row;
+            align-items: start;
+            img{
+                width: 50%;
+            }
+            div{
+                width: 30%;
+
+
+                
+                h2{
+                    width: 100%;
+                    text-align: left;
+                    margin: 0 0 1rem 0;
+                }
+                p{
+                    text-align: left;
+                    margin-bottom: 15%;
+                    align-self: flex-start;
+                }
+            }
+            
+        }
+        .three-art{
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 5rem;
+            article{
+                width: 30%;
+            }
+            img{
+                height: 32px;
+            }
+        }
+
+     }
+}
+@include media-xl{
+    .three-art{
+        article{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

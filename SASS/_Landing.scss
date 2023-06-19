@@ -1,0 +1,42 @@
+.Landing{
+    @include align-center(90%);
+    margin-bottom: 5rem;
+    h1{
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+    }
+    div{
+        @include Vflex-center;
+        gap: 1rem;
+
+        button{
+            width: 90%;
+            max-width: 18rem;
+            padding: 1rem
+        }
+        .ios{
+            @include button-radius;
+            background-color: $Strong-Cyan;
+
+        }
+        .mac{
+            @include button-radius;
+            background-color: $Light-Blue;
+
+        }
+    }
+}
+
+@include media-md{
+    .Landing{
+        width: 52%;
+
+        div{
+            flex-direction: row;
+    
+        }
+    }
+}

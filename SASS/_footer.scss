@@ -1,0 +1,61 @@
+footer{
+    @include Vflex-center;
+    text-align: center;
+    background-color: rgba(234, 232, 232, 0.282);
+    .Logo{
+        width: 3rem;
+        margin: 1rem;
+    }
+    ul{
+        li{
+            padding: 1rem;
+            a{
+                color: $Dark-Grayish-Blue;
+                &:hover{
+                    color: $Strong-Cyan;
+                }
+            }
+        }
+    }
+    div{
+        padding: 2rem;
+        a{  
+            font-size: 2rem;
+            margin: 1rem 1rem;
+            color: $Dark-Grayish-Blue;
+            &:hover{
+                color: $Strong-Cyan;
+            }}
+    }
+}
+.Logo-div{
+    padding: 0;
+}
+@include media-lg{
+    footer{
+        flex-direction: row;
+        .Logo-div{
+            flex: 2;
+        }
+        ul{
+            flex: 1;
+            li{
+                padding: 0rem;
+                a{
+                    color: $Dark-Grayish-Blue;
+                    &:hover{
+                        color: $Strong-Cyan;
+                    }
+                }
+            }
+        }
+            div{
+                flex: 3;
+        a{  
+            font-size: 2rem;
+            margin: 1rem 1rem;
+            color: $Dark-Grayish-Blue;
+}
+    }
+    }
+}
