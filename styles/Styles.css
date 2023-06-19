@@ -15,7 +15,7 @@ a {
   text-align: center;
   width: 90%;
   margin: 1rem auto;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 .Landing h1 {
   text-align: center;
@@ -81,7 +81,7 @@ a {
   text-align: center;
 }
 .Main .Main_Computer, .Main .Main_Devices {
-  margin-bottom: 8rem;
+  margin: 8rem 0;
 }
 .Main .Main_Computer img, .Main .Main_Devices img {
   width: 100%;
